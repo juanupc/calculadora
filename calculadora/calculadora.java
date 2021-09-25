@@ -66,8 +66,13 @@ public class calculadora {
 				num_1 = Double.parseDouble(bufEntrada.readLine());
 				System.out.print("  Escriba el segundo valor de la division ");
 				num_2 = Double.parseDouble(bufEntrada.readLine());
+				if(num_2==0){
+                                   System.out.println("no se puede dividir entre cero");
+                                }
+                                else{
 				total = num_1/num_2;
 				System.out.println("  El valor total de la division "+num_1+"/"+num_2+" es de "+total);
+                                }
 				break;
 			case 5:
 				System.out.print(" Escriba el numerador ");
