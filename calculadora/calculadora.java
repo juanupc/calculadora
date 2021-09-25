@@ -5,9 +5,9 @@ public class calculadora {
 
 	public static void main(String args[]) throws IOException {
 		BufferedReader bufEntrada = new BufferedReader(new InputStreamReader(System.in));
+		long factorial=1;
 		double grados;
-                long factorial=1;
-		double num_1;
+                double num_1;
 		double num_2;
 		int op;
 		double pi;
