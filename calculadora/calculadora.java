@@ -144,7 +144,7 @@ public class calculadora {
 				System.out.println("El numero aproximado es "+Math.round(num_1));
 				break;
                         case 18:
-                                System.out.println("Ingrese el valor");
+                                System.out.println("Ingrese un valor");
                                 num_1 = Double.parseDouble(bufEntrada.readLine());
                                 for (int i = (int) num_1; i > 0; i--) {
                                     factorial = factorial * i;
